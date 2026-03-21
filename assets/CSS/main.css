@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    gap: 232.5px;
+    
+}
+.list{
+display: flex;
+gap: 60px;
+list-style-type: none;
+}
+
+.icons{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
