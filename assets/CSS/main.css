@@ -7,16 +7,35 @@ box-sizing: border-box;
 .header{
     display: flex;
     gap: 232.5px;
-    
+margin: 0 165px;
+padding: 21.84px 0;
 }
-.list{
+.list ul{
 display: flex;
 gap: 60px;
 list-style-type: none;
 }
 
-.icons{
+.icons ul {
     display: flex;
     gap: 24px;
     list-style-type: none;
 }
+
+.collection_section{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin: 0 165px;
+
+}
+.collection{
+    width:calc( (100% - 90px) / 4 );
+}
+
+ .collection img{
+ width: 100%;
+   margin-bottom: 23px;
+ }
+
+
